@@ -22,48 +22,64 @@ options:
   vms-user:
     type: string
     default: "kvm"
+    description: "VMS_USER"
   vms-group:
     type: string
     default: "libvirt"
+    description: "VMS_GROUP"
   vms-shelf_path:
     type: string
     default: "/dev/shm"
+    description: "VMS_SHELF_PATH"
   vms-shared_path:
     type: string
     default: "/var/gridcentric"
+    description: "VMS_SHARED_PATH"
   vms-disk_url:
     type: string
     default: ""
+    description: "VMS_DISK_URL"
   vms-memory_url:
     type: string
     default: ""
+    description: "VMS_MEMORY_URL"
   vms-logs:
     type: string
     default: "/var/log/vms"
+    description: "VMS_LOGS"
   vms-single_log:
     type: string
     default: "false"
+    description: "VMS_SINGLE_LOG"
   vms-cache:
     type: string
     default: "/dev/shm/vms"
+    description: "VMS_CACHE"
   vms-store:
     type: string
     default: ""
+    description: "VMS_STORE"
   vms-vmsd_opts:
     type: string
     default: ""
+    description: "VMSD_OPTS"
   vms-debug:
     type: string
     default: "false"
+    description: "VMS_DEBUG"
   vms-guest_params:
     type: string
     default: ""
+    description: "VMS_GUEST_PARAMS"
   vms-ceph_conf:
     type: string
     default: ""
+    description: "VMS_CEPH_CONF"
   vms-ceph_login:
     type: string
     default: ""
+    description: "VMS_CEPH_LOGIN"
   vms-qemu_cpu_model:
     type: string
     default: ""
+    description: "VMS_QEMU_CPU_MODEL"

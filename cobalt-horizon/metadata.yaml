@@ -1,6 +1,6 @@
 name: cobalt-horizon
 summary: Gridcentric VMS and Cobalt dashboard extensions.
-maintainer: Gridcentric Inc. <info@gridcentric.com>
+maintainer: Adin Scannell <adin@gridcentric.com>
 description: |
   Extensions for Horizon that enable Gridcentric VMS for OpenStack.
 categories:

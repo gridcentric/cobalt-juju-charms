@@ -1,6 +1,6 @@
 name: cobalt-compute
 summary: Gridcentric VMS and Cobalt compute services.
-maintainer: Gridcentric Inc. <info@gridcentric.com>
+maintainer: Adin Scannell <adin@gridcentric.com>
 description: |
   Extensions for Nova compute hosts that enable Gridcentric VMS for OpenStack.
 categories:
