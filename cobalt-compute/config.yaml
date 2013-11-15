@@ -21,11 +21,11 @@ options:
     description: "The VMS private key for downloading packages."
   vms-user:
     type: string
-    default: "kvm"
+    default: "libvirt-qemu"
     description: "VMS_USER"
   vms-group:
     type: string
-    default: "libvirt"
+    default: "kvm"
     description: "VMS_GROUP"
   vms-shelf_path:
     type: string
