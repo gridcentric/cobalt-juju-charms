@@ -17,7 +17,7 @@ To use them locally (with `precise`, for example), you can do the following.
     juju deploy --repository=. local:cobalt-api
     juju deploy --repository=. local:cobalt-horizon
 
-Then add the relations are specified in the individual charms.
+Then add the relations as specified in the individual charms.
 
     juju add-relation nova-compute cobalt-compute
     juju add-relation nova-cloud-controller cobalt-api
