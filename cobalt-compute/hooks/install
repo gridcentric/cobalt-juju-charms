@@ -1,0 +1,7 @@
+#!/bin/bash
+
+config-changed
+
+# Install the software.
+apt-get update
+apt-get install -y $(get-config compute-type) cobalt-compute

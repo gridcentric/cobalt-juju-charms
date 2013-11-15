@@ -1,0 +1,13 @@
+options:
+  os-version:
+    type: string
+    default: "OpenStack version"
+    description: "The version of OpenStack (folsom, grizzly, etc.)"
+  base-uri:
+    type: string
+    default: "http://downloads.gridcentric.com/packages"
+    description: "The base URL for Gridcentric packages."
+  cobalt-key:
+    type: string
+    default: "cobalt"
+    description: "The cobalt key for downloading packages."

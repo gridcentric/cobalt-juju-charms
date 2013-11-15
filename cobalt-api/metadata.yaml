@@ -1,0 +1,12 @@
+name: cobalt-api
+summary: Gridcentric VMS and Cobalt API extenion.
+maintainer: Gridcentric Inc. <info@gridcentric.com>
+description: |
+  Extensions for Nova API that enable Gridcentric VMS for OpenStack.
+categories:
+  - misc
+subordinate: true
+requires:
+  implicit:
+    interface: juju-info
+    scope: container

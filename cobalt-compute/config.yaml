@@ -1,0 +1,69 @@
+options:
+  os-version:
+    type: string
+    default: "OpenStack version"
+    description: "The version of OpenStack (folsom, grizzly, etc.)"
+  base-uri:
+    type: string
+    default: "http://downloads.gridcentric.com/packages"
+    description: "The base URL for Gridcentric packages."
+  compute-type:
+    type: string
+    default: "libvirt"
+    description: "The compute type to install (e.g. libvirt)."
+  cobalt-key:
+    type: string
+    default: "cobalt"
+    description: "The cobalt key for downloading packages."
+  vms-key:
+    type: string
+    default: "~must~be~provided~"
+    description: "The VMS private key for downloading packages."
+  vms-user:
+    type: string
+    default: "kvm"
+  vms-group:
+    type: string
+    default: "libvirt"
+  vms-shelf_path:
+    type: string
+    default: "/dev/shm"
+  vms-shared_path:
+    type: string
+    default: "/var/gridcentric"
+  vms-disk_url:
+    type: string
+    default: ""
+  vms-memory_url:
+    type: string
+    default: ""
+  vms-logs:
+    type: string
+    default: "/var/log/vms"
+  vms-single_log:
+    type: string
+    default: "false"
+  vms-cache:
+    type: string
+    default: "/dev/shm/vms"
+  vms-store:
+    type: string
+    default: ""
+  vms-vmsd_opts:
+    type: string
+    default: ""
+  vms-debug:
+    type: string
+    default: "false"
+  vms-guest_params:
+    type: string
+    default: ""
+  vms-ceph_conf:
+    type: string
+    default: ""
+  vms-ceph_login:
+    type: string
+    default: ""
+  vms-qemu_cpu_model:
+    type: string
+    default: ""
