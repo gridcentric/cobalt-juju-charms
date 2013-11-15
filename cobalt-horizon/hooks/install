@@ -25,10 +25,13 @@ zGdl0Q==
 -----END PGP PUBLIC KEY BLOCK-----
 EOF
 
+# Reduce LSB to shipping variants
+[ $(lsb_release -cs) == "precise" -o $(lsb_release -cs) == "quantal" ] && RELEASE="precise" || RELEASE="raring"
+
 # Generate our package lists.
 cat > /etc/apt/sources.list.d/cobalt-horizon.list <<EOF
-deb $(config-get base-uri)/$(config-get cobalt-key)/$(config-get os-version)/$(lsb_release -cs)/ gridcentric multiverse
-deb $(config-get base-uri)/$(config-get cobaltclient-key)/$(config-get os-version)/$(lsb_release -cs)/ gridcentric multiverse
+deb $(config-get base-uri)/$(config-get cobalt-key)/$(config-get os-version)/$RELEASE/ gridcentric multiverse
+deb $(config-get base-uri)/$(config-get cobaltclient-key)/$(config-get os-version)/$RELEASE/ gridcentric multiverse
 EOF
 
 # Install the software.
