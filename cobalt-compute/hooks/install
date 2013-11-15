@@ -33,4 +33,4 @@ EOF
 
 # Install the software.
 apt-get update
-apt-get install -y $(get-config compute-type) cobalt-compute
+apt-get install -y vms-$(get-config compute-type) vms-mcdist vms-rados cobalt-compute
