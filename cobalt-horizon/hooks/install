@@ -33,4 +33,4 @@ EOF
 
 # Install the software.
 apt-get update
-apt-get install -y cobalt-horizon
+apt-get install -y -o Dpkg::Options::="--force-confdef" cobalt-horizon
